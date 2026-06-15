@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.btn-primary {
+    @apply px-5 py-2.5 bg-indigo-600 text-white rounded-xl text-sm font-medium hover:bg-indigo-700 active:scale-95 transition-all duration-150 disabled:opacity-50 disabled:cursor-not-allowed;
+}
+
+.btn-secondary {
+    @apply px-5 py-2.5 bg-white text-gray-700 rounded-xl text-sm font-medium border border-gray-200 hover:bg-gray-50 active:scale-95 transition-all duration-150;
+}
+
+.btn-danger {
+    @apply px-5 py-2.5 bg-red-500 text-white rounded-xl text-sm font-medium hover:bg-red-600 active:scale-95 transition-all duration-150;
+}
+
+.btn-success {
+    @apply px-5 py-2.5 bg-emerald-600 text-white rounded-xl text-sm font-medium hover:bg-emerald-700 active:scale-95 transition-all duration-150;
+}
+
+.input {
+    @apply w-full px-4 py-2.5 border border-gray-200 rounded-xl text-sm bg-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all placeholder-gray-400;
+}
+
+.card {
+    @apply bg-white rounded-2xl border border-gray-100 shadow-sm p-6;
+}
+
+.badge-admin {
+    @apply px-2.5 py-1 bg-purple-100 text-purple-700 rounded-lg text-xs font-medium;
+}
+
+.badge-user {
+    @apply px-2.5 py-1 bg-blue-100 text-blue-700 rounded-lg text-xs font-medium;
+}
+
+.badge-owner {
+    @apply px-2.5 py-1 bg-emerald-100 text-emerald-700 rounded-lg text-xs font-medium;
+}
+
+.page-wrapper {
+    @apply min-h-screen bg-gradient-to-br from-slate-50 to-indigo-50;
+}
+
+.alert-error {
+    @apply p-3 bg-red-50 border border-red-200 text-red-700 rounded-xl text-sm;
+}
+
+.alert-success {
+    @apply p-3 bg-emerald-50 border border-emerald-200 text-emerald-700 rounded-xl text-sm;
+}
