@@ -48,3 +48,22 @@ Password → Admin@123
 ✅ Form validations
 ✅ Change password for all roles
 ✅ Responsive UI
+
+## Screenshots
+
+### Admin Dashboard
+![Admin Dashboard](screenshots/Dashboard.png)
+
+### Login Page
+![Login Page](screenshots/Login.png)
+
+### Store Listing
+![Store Listing](screenshots/Store.png)
+
+### User Page
+![User Page] (screenshots/User.png)
+
+
+
+
+
