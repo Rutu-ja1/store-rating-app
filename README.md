@@ -60,8 +60,7 @@ Password → Admin@123
 ### Store Listing
 ![Store Listing](screenshots/Store.png)
 
-### User Page
-![User Page] (screenshots/User.png)
+
 
 
 
